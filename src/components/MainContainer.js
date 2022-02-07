@@ -35,7 +35,6 @@ function myPortfolio(action, id) {
 function handleFilteredStocks(value) {
   const updatedStocks = stocks.filter(stock => stock.type === value)
   setFilteredStocks(updatedStocks)
-  setSort('')
 }
 
 // sorts results
